@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteora</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#"><h1 class="m-0"><img class="d-block" src="./assets/logo.png.png" alt="Logo da loja meteora"></h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Lojas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Novidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Promocoes</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto" aria-label="Search">
+                    <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Carrousel -->
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://www.sokaglobal.org/wp-content/uploads/daily_encouragement/4.2.jpg"
+                    class="d-block w-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://www.sokaglobal.org/wp-content/uploads/daily_encouragement/4.5.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.sokaglobal.org/wp-content/uploads/daily_encouragement/4.6-8.23.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <h2 class="text-center">Busque por Categoría</h2>
+    <!-- Cards -->
+
+    <div class="container row">
+        <div class="col-6">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                    <p class="text-center">Categoria</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                    <p class="text-center">Categoria</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                    <p class="text-center">Categoria</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                    <p class="text-center">Categoria</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                    <p class="text-center">Categoria</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-header">
+                    <p class="text-center">Categoria</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="text-center">Produtos que estao bombando!</h2>
+    <div class="container row mx-auto">
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Produto</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <p>R$ 30,00</p>
+                    <button class="botao-lilas rounded-1 border-0 text-white">Ver mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Produto</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <p>R$ 30,00</p>
+                    <!-- <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a> -->
+                <button class="botao-lilas rounded-1 border-0 text-white">Ver mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Produto</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <p>R$ 30,00</p>
+                    <button class="botao-lilas rounded-1 border-0 text-white">Ver mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Produto</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <p>R$ 30,00</p>
+                    <button class="botao-lilas rounded-1 border-0 text-white">Ver mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Produto</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <p>R$ 30,00</p>
+                    <button class="botao-lilas rounded-1 border-0 text-white">Ver mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-xxl-4 pb-4">
+
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Produto</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <p>R$ 30,00</p>
+                    <button class="botao-lilas rounded-1 border-0 text-white">Ver mais</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="pb-4 bg-dark">
+        <h2 class="text-center text-white">Conheça todas as nossas facilidades</h2>
+        
+        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3">
+            <div class="divs-facilidades d-flex align-items-center">
+                <div><i class="bi bi-x-diamond fs-1 bg-amarillo"></i></div>
+                <div>
+                    <div class="text-amarillo">PAGUE PELO PIX</div>
+                    <div class="texto-menor ms-3 text-white">
+                        Ganhe 5% OFF em
+                        pagamentos via PIX
+                    </div>
+                </div>
+            </div>
+            <div class="divs-facilidades d-flex align-items-center">
+                <div><i class="bi bi-arrow-repeat fs-1 bg-amarillo"></i></div>
+                <div>
+                    <div class="text-amarillo">TROCA GRÁTIS</div>
+                    <div class="texto-menor ms-3 text-white">Fique livre para trocar em até 30 dias.</div>
+                </div>
+            </div>
+
+            <div class="divs-facilidades d-flex align-items-center">
+                <div><i class="bi bi-flower1 fs-1 bg-amarillo"></i></div>
+                <div>
+                    <div class="text-amarillo">SUSTENTABILIDADE</div>
+                    <div class="texto-menor ms-3 text-white">Moda responsável, que respeita o meio ambiente.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <form class="border boder-secondary m-3 p-3 text-center">
+        <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
+
+        <div class="input-group my-3">
+          <input type="email" class="form-control boder-secondary rounded-0"  placeholder="Digite seu e-mail" aria-label="Digite seu e-mail" aria-describedby="button-addon2" /> 
+    <button type="button" id="button-addon2">Enviar</button>
+        </div>
+      </form>
+
+      <footer class="text-center text-white bg-dark">
+        <p class="py-3" >2023 <i class="bi bi-balloon-heart"></i>Luciana Marín.</p>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
